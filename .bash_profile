@@ -1,5 +1,5 @@
 # Add `~/bin` to the `$PATH`
-export PATH="$HOME/local/bin:$HOME/bin:$PATH"
+export PATH="usr/local/bin:$HOME/bin:$PATH"
 export PATH="/Users/bricelin/.rvm/gems/ruby-2.0.0-p247/bin:/Users/bricelin/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/bricelin/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/bricelin/.rvm/bin:$PATH"
 
 # Load the shell dotfiles, and then some:
