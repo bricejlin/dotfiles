@@ -1,6 +1,7 @@
 # Add `~/bin` to the `$PATH`
-export PATH="/Users/bricelin/.rvm/gems/ruby-2.0.0-p247/bin:/Users/bricelin/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/bricelin/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/bricelin/.rvm/bin:$PATH"
-export PATH="usr/local/bin:$HOME/bin:$PATH"
+homebrew=/usr/local/bin:/usr/local/sbin
+export PATH=$homebrew:$PATH
+export PATH="$PATH:/Users/bricelin/.rvm/gems/ruby-2.0.0-p247/bin:/Users/bricelin/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/bricelin/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/bricelin/.rvm/bin"
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
