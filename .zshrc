@@ -75,4 +75,5 @@ export PATH="/Users/bricelin/.rvm/gems/ruby-2.1.1/bin:/Users/bricelin/.rvm/bin:/
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
-~/.aliases
+source $HOME/.aliases
+source $HOME/.functions

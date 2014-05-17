@@ -1,3 +1,4 @@
+
 " Use the Molokai theme (originally created for TextMate by Wimer Hazenberg)
 colorscheme molokai
 
@@ -28,6 +29,8 @@ set directory=~/.vim/swaps
 if exists("&undodir")
 	set undodir=~/.vim/undo
 endif
+
+set t_Co=256
 
 " Respect modeline in files
 set modeline
