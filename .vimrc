@@ -83,6 +83,12 @@ endif
 " Start scrolling three lines before the horizontal window border
 set scrolloff=3
 
+" Easier navigating between split screens
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
 " Strip trailing whitespace (,ss)
 function! StripWhitespace()
 	let save_cursor = getpos(".")
