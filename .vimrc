@@ -1,3 +1,4 @@
+execute pathogen#infect()
 
 " Use the Molokai theme (originally created for TextMate by Wimer Hazenberg)
 colorscheme molokai
@@ -30,6 +31,7 @@ if exists("&undodir")
 	set undodir=~/.vim/undo
 endif
 
+" Set color to 256
 set t_Co=256
 
 " Respect modeline in files
@@ -88,6 +90,9 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+
+" NERDTree shortcuts
+nnoremap <C-b> :NERDTreeToggle<CR>
 
 " Strip trailing whitespace (,ss)
 function! StripWhitespace()
