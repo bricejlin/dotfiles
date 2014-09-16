@@ -50,8 +50,6 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="/Users/bricelin/.rvm/gems/ruby-2.1.1/bin:/Users/bricelin/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin"
-
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -72,3 +70,4 @@ export PATH="/Users/bricelin/.rvm/gems/ruby-2.1.1/bin:/Users/bricelin/.rvm/bin:/
 
 source $HOME/.aliases
 source $HOME/.functions
+source $HOME/.other-aliases
