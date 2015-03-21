@@ -48,6 +48,8 @@ syntax on
 set cursorline
 " Make tabs as wide as two spaces
 set tabstop=4
+" Set tabs to spaces
+set expandtab
 " Indent to match indent of previous line¬
 set autoindent
 " Show “invisible” characters
