@@ -1,7 +1,5 @@
-execute pathogen#infect()
-
 " Use the Molokai theme (originally created for TextMate by Wimer Hazenberg)
-colorscheme molokai
+colorscheme sierra
 
 " Make Vim more useful
 set nocompatible
@@ -86,7 +84,7 @@ if exists("&relativenumber")
 endif
 " Start scrolling three lines before the horizontal window border
 set scrolloff=3
-
+set pastetoggle=<F2>
 " Easier navigating between split screens
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
