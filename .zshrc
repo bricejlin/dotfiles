@@ -23,11 +23,5 @@ source $HOME/.exports
 export NVM_DIR="/Users/bricelin/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
-# The next line updates PATH for the Google Cloud SDK.
-source '/Users/bricelin/google-cloud-sdk/path.zsh.inc'
-
-# The next line enables shell command completion for gcloud.
-source '/Users/bricelin/google-cloud-sdk/completion.zsh.inc'
-
 # added by travis gem
 [ -f /Users/bricelin/.travis/travis.sh ] && source /Users/bricelin/.travis/travis.sh
