@@ -91,3 +91,6 @@
 
 [push]
 	default = matching
+[user]
+	name = Brice Lin
+	email = bricejlin@gmail.com
