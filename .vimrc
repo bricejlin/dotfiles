@@ -38,6 +38,8 @@ set tabstop=2
 " Set tabs to spaces
 set expandtab
 " Indent to match indent of previous line¬
+set smarttab
+set shiftwidth=2
 set autoindent
 " Show “invisible” characters
 set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
