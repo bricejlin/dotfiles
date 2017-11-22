@@ -18,8 +18,8 @@ source $ZSH/oh-my-zsh.sh
 source $HOME/.aliases
 source $HOME/.functions
 
-export NVM_DIR="/Users/bricelin/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+export NVM_DIR="$HOME/.nvm"
+. "/usr/local/opt/nvm/nvm.sh"
 
 # added by travis gem
 [ -f /Users/bricelin/.travis/travis.sh ] && source /Users/bricelin/.travis/travis.sh
